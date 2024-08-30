@@ -62,18 +62,16 @@ fn main() {
                 break;
             }
         }
+
         println!("You got it!");
         println!("Again? [y/n]");
         let mut proceed = String::new();
         io::stdin()
                 .read_line(&mut proceed)
                 .expect("Failed to read line");
+            
         if proceed.to_lowercase().trim() != "y" {
             break
         }
     }
-
-
-
-
 }
