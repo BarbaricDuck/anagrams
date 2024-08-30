@@ -1,9 +1,10 @@
 [package]
 name = "anagrams"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "MIT"
 description = "Generates a random word, then gets the user to guess the anagram"
+repository = "https://github.com/BarbaricDuck/anagrams"
 
 [dependencies]
 rand = "0.8.5"
