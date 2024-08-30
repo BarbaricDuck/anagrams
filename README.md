@@ -16,3 +16,7 @@ $ >
 ## License
 
 Distributed under the MIT License
+
+## Notice
+
+This project/crate was created as my first rust project. If the name "anagrams" is needed for any other crate, please let me know
